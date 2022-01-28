@@ -39,8 +39,8 @@ As many engineers and interns as needed can be added before choosing "Finish bui
 
 
 ## Example
- Video of working project
-"https://drive.google.com/file/d/1AY8Vadr6ModTXJ2kk_BfwF6pRHQqzJp5/preview"
+
+[Video of Team Generator project](https://drive.google.com/file/d/1AY8Vadr6ModTXJ2kk_BfwF6pRHQqzJp5/preview)
 ---
 
 ## Contributors
