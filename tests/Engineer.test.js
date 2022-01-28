@@ -1,5 +1,5 @@
-const Employee = require("../lib/Employee");
-const Engineer = require("../lib/Engineer");
+const Employee = require("../assets/Employee");
+const Engineer = require("../assets/Engineer");
 
 describe("Engineer class", () => {
   const engineer = new Engineer("Raymond Estrada", 19, "raymond.estrada@mew.com");

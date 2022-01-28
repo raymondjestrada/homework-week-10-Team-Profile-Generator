@@ -1,5 +1,5 @@
-const Employee = require("../lib/Employee");
-const Manager = require("../lib/Manager");
+const Employee = require("../assets/Employee");
+const Manager = require("../assets/Manager");
 
 describe("Manager class", () => {
   const manager = new Manager("Raymond Estrada", 19, "raymond.estrada@new.com", "32");

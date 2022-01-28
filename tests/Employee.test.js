@@ -1,4 +1,4 @@
-const Employee = require("../lib/Employee");
+const Employee = require("../assets/Employee");
 
 describe("Employee class", () => {
   const employee = new Employee("Raymond Estrada", 19, "raymond.estrada@new.com");

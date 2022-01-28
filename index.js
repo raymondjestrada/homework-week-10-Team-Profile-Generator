@@ -1,8 +1,8 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const Manager = require("./lib/Manager");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
+const Manager = require("./assets/Manager");
+const Engineer = require("./assets/Engineer");
+const Intern = require("./assets/Intern");
 const createHTML = require("./src/createHTML");
 
 inquirer
@@ -32,7 +32,7 @@ inquirer
         const employeeList = employeeProfiles([new Manager(response.managerName, response.managerID, response.managerEmail, response.officeNumber)]);
         return employeeList;
     })
-    .then((employeeList) => fs.writeFileSync("./dist/index.html", createHTML(employeeList)))
+    .then((employeeList) => fs.writeFileSync("index.html", createHTML(employeeList)))
     .then(() => console.log("HTML file successfully created in dist directory"))
     .catch(err => console.log(err));
 
